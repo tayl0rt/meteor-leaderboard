@@ -1,0 +1,26 @@
+<template name="players">
+	<p>Total Players: {{numberOfPlayers}}</p>
+
+	<table class="bordered">
+		<thead>
+		<tr>
+			<th data-field="id">Player</th>
+			<th data-field="name">Score</th>
+		</tr>
+		</thead>
+
+		<tbody>
+			{{#each player}}
+				<tr>
+					<td class = "player {{selectedClass}}">{{name}}</td>
+					<td>{{score}}</td>
+				</tr>
+			{{/each}}
+		</tbody>
+	</table>
+
+	<br>
+
+	<a class="increment waves-effect waves-light btn teal lighten-1">Give 5 Points!</a>
+	<a class="decrement waves-effect waves-light btn teal lighten-1">Remove 5 Points!</a>
+</template>
