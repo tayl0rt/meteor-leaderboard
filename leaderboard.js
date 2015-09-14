@@ -17,7 +17,7 @@ if (Meteor.isClient) {
 			var selectedPlayer = Session.get('selectedPlayer');
 			if (playerID == selectedPlayer ) {
 				console.log(playerID);
-				return "selected-player";
+				return "selected-player teal lighten-3";
 			}
 		}
 	});
