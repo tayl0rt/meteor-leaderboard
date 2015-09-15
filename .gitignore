@@ -1,0 +1,13 @@
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+
+# Meteor
+
+.meteor/local
+.meteor/meteorite
+.sass-cache
+
+# Created by .ignore support plugin (hsz.mobi)
